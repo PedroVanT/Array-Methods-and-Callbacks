@@ -84,13 +84,13 @@ Return the name of all winning countries in an array called `winners` */
 function getWinners(cb) {
 
     const winners = cb.map(item => {
-        
+        if (item['Home Team Goals'] > item['Away Team Goals'] );
     })
 
-    if (item['Home Team Goals'] > item[''] )
+    
 
 
-};
+}
 
 getWinners();
 
